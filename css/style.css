@@ -1,0 +1,97 @@
+
+*{
+  margin:0;
+  padding:0;
+}
+#boks{
+  width: 80%;
+  background-color:#dcbf81;
+  margin:auto;
+}
+header{
+  padding: 10px;
+  height: 50px;
+  background-color:#dcbf81;
+}
+header h1 a{
+  color:#fff;
+  text-decoration: none;
+}
+nav{
+  float:left;
+  width: 20%;
+  overflow: auto;
+
+}
+
+nav ul li a{
+  text-decoration: none;
+  width: 100%;
+  background-color: white;
+  display: block;
+  padding: 10px;
+  color:black;
+  border:1px solid #576f59;
+  box-sizing: border-box;
+
+}
+nav ul li a:hover{
+  background-color: #dcbf81;
+  transition: 0.5s;
+}
+
+section{
+
+  background-color: white;
+  padding: 25px;
+  width: 70%;
+  min-height: 550px;;
+}
+.h3{
+  background-color: #fff;
+  border: 1px solid #000;
+  box-sizing:border-box;
+}
+footer{
+  clear: both;
+  background-color: white;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-bottom: 1px solid #dcbf81;
+}
+
+
+input[type=text]{
+  min-width: 20%;
+  margin-bottom: 10px;
+  padding: 10px;
+  outline: none;
+  border: 1px solid grey;
+}
+input[type=text]:focus{
+  border:1px solid #357a38;
+  outline: none;
+
+}
+#registrer, #nullstill, #fortsett{
+width:10%;
+font-family:Helvetica;
+font-size:105%;
+padding:13px;
+background-color:#dcbf81;
+cursor:pointer;
+margin-top:5px;
+border:1px solid #fff;
+border-radius: 5px;
+color:white;
+
+}
+#registrer:hover, #nullstill:hover, #fortsett:hover{
+border:1px solid #d4be77;
+border-radius: 5px;
+box-sizing: border-box;
+background-color:#fff;
+transition: 0.3s;
+color:#000;
+}
