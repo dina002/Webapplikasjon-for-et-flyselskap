@@ -1,3 +1,2 @@
-# Webapplikasjon-for-et-flyselskap
-
-En oppgave der vi utviklet en webapplikasjon for fly. 
+# Programmeringsoppgave
+Denne programmeringsoppgaven gikk ut på å utvikle ferdigheter med programmering og database.
